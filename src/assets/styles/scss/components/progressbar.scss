@@ -1,0 +1,37 @@
+.progressbar-wrapper {
+  width: 208px;
+  margin: 0px 20px;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.progressbar-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    margin: 6px 0px;
+  }
+  .stats-number {
+    font-family: "Libre Baskerville", serif;
+    font-size: 24px;
+  }
+  .stats-label {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .progressbar-wrapper {
+    width: 144px;
+  }
+  .progressbar-content {
+    .stats-label {
+      font-size: 13px;
+    }
+  }
+}

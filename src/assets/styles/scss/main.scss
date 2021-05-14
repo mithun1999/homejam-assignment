@@ -1,9 +1,24 @@
 /********************/
-/* Base CSS */
+/* Base */
 /********************/
 @import "./base.scss";
 
 /********************/
-/* Home/Hero CSS */
+/* Home/Hero */
 /********************/
-@import "./home/hero.scss";
+@import "./sections/home/hero.scss";
+
+/********************/
+/* Components/Progress Bar */
+/********************/
+@import "./components/progressbar.scss";
+
+/********************/
+/* Home/Shows */
+/********************/
+@import "./sections/home/shows.scss";
+
+/********************/
+/* Components/Shows Card */
+/********************/
+@import "./components/showscard.scss";

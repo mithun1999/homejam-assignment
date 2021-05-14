@@ -6,13 +6,18 @@
       rgba(1, 13, 32, 0.69) 67.53%,
       #0a0b1a 85.33%
     ),
-    url("../../../images/home/hero/png/hero-bg.png");
+    url("../../../../images/home/hero/png/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   position: relative;
+  /*CHECK:Check this affects any other elements*/
+  overflow-x: hidden;
 }
 
+.hero-main-wrapper {
+  background-color: #0a0b1a;
+}
 /***************/
 /* Navbar */
 /***************/
@@ -107,4 +112,17 @@
       font-size: 16px;
     }
   }
+}
+
+/***************/
+/* Stats */
+/***************/
+.stats-wrapper {
+  position: relative;
+}
+.stats-container {
+  transform: translateY(-50%);
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
 }

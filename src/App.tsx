@@ -1,10 +1,12 @@
 import React from "react";
 import Hero from "./sections/Home/Hero";
+import { Shows } from "./sections/Home/Shows";
 
 function App() {
   return (
     <>
-      <Hero />
+      <Hero className="hero-main-wrapper" />
+      <Shows className="shows-main-wrapper" />
     </>
   );
 }

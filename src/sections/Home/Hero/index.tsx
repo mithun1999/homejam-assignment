@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { HeroProps } from "./Hero.types";
 import { Navbar } from "./Navbar";
 import { Content } from "./Content";
+import { Stats } from "./Stats";
 
 const Hero: FC<HeroProps> = ({ className }) => {
   return (
@@ -11,6 +12,9 @@ const Hero: FC<HeroProps> = ({ className }) => {
           <Navbar />
           <Content className="h-100" />
         </div>
+      </div>
+      <div className="container">
+        <Stats />
       </div>
     </div>
   );
