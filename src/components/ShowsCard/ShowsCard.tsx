@@ -37,6 +37,7 @@ export const ShowsCard: FC<ShowsCardProps> = ({
             </div>
           </div>
         </div>
+        <div className="shows-card-background"/>
       </div>
     </div>
   );

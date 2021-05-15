@@ -1,6 +1,5 @@
 .shows-main-wrapper {
   background-color: #0a0b1a;
-  margin-bottom: 40px;
 }
 
 .shows-title-wrapper {
@@ -44,4 +43,22 @@
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
+  .showscard-last {
+    .shows-card-wrapper {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .shows-content-wrapper::-webkit-scrollbar {
+    height: 5px;
+  }
+  .shows-content-wrapper::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .shows-content-wrapper::-webkit-scrollbar-thumb {
+    background: #3b3c48;
+  }
 }

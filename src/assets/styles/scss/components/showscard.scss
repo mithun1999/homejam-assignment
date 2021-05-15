@@ -1,14 +1,14 @@
 .shows-card-wrapper {
+  position: relative;
   margin-right: 40px;
+  z-index: 99;
+  margin-bottom: 20px;
   .shows-card {
+    background: #111229;
     color: white;
     width: 245px;
     border-radius: 8px;
-    //margin: 40px 0;
-    //margin-right: 35px;
-
     background-color: #111229;
-    box-shadow: 10px -10px #301a68;
   }
   .shows-card-img {
     width: 100%;
@@ -56,5 +56,15 @@
         cursor: pointer;
       }
     }
+  }
+  .shows-card-background {
+    position: absolute;
+    border-radius: 8px;
+    left: 8px;
+    top: -8px;
+    bottom: 8px;
+    width: 245px;
+    background: linear-gradient(163.41deg, #301a68 0.11%, #234c97 170.69%);
+    z-index: -99;
   }
 }

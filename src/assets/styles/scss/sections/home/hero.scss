@@ -123,6 +123,27 @@
 .stats-container {
   transform: translateY(-50%);
   display: flex;
+  justify-content: space-between;
   overflow-x: auto;
   white-space: nowrap;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 769px) {
+  .stats-container::-webkit-scrollbar {
+    height: 5px;
+  }
+  .stats-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .stats-container::-webkit-scrollbar-thumb {
+    background: #3b3c48;
+  }
+}
+
+@media (max-width: 769px) {
+  .stats-container {
+    justify-content: flex-start;
+  }
 }
