@@ -68,3 +68,9 @@
     z-index: -99;
   }
 }
+
+@media (max-width: 769px) {
+  .shows-card-wrapper {
+    margin-right: 24px;
+  }
+}
