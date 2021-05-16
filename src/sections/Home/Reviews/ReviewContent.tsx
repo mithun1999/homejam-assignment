@@ -30,8 +30,6 @@ export const ReviewsContent: FC<ReviewsContentProps> = ({
                     onBeforeInit={onBeforeFunc}
                     spaceBetween={20}
                     slidesPerView={'auto'}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
                     breakpoints={{
                         600: {
                             spaceBetween: 34,

@@ -1,64 +1,65 @@
 .shows-main-wrapper {
-  background-color: #0a0b1a;
+    background-color: #0a0b1a;
 }
 
 .shows-title-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  h2 {
-    font-size: 30px;
-    font-family: "Libre Baskerville", serif;
-    margin-bottom: 0;
-  }
-  h2::after {
-    content: "";
-    display: block;
-    width: 48px;
-    padding-top: 8px;
-    border-bottom: 3px solid #0259eb;
-  }
-  h5 a {
-    color: #e5c558;
-    font-weight: 600;
-    font-size: 16px;
-  }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    h2 {
+        font-size: 30px;
+        font-family: 'Libre Baskerville', serif;
+        margin-bottom: 0;
+    }
+    h2::after {
+        content: '';
+        display: block;
+        width: 48px;
+        padding-top: 8px;
+        border-bottom: 3px solid #0259eb;
+    }
+    h5 a {
+        color: #e5c558;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+    }
 }
 
 @media (max-width: 768px) {
-  .shows-title-wrapper {
-    h2 {
-      font-size: 20px;
+    .shows-title-wrapper {
+        h2 {
+            font-size: 20px;
+        }
+        h5 {
+            font-size: 14px;
+        }
     }
-    h5 {
-      font-size: 14px;
-    }
-  }
 }
 
 .shows-content-wrapper {
-  margin-top: 40px;
-  padding-top: 10px;
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  .showscard-last {
-    .shows-card-wrapper {
-      margin-right: 0px;
+    margin-top: 40px;
+    padding-top: 10px;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    .showscard-last {
+        .shows-card-wrapper {
+            margin-right: 0px;
+        }
     }
-  }
 }
 
 @media (min-width: 769px) {
-  .shows-content-wrapper::-webkit-scrollbar {
-    height: 5px;
-  }
-  .shows-content-wrapper::-webkit-scrollbar-track {
-    background: transparent;
-  }
+    .shows-content-wrapper::-webkit-scrollbar {
+        height: 5px;
+    }
+    .shows-content-wrapper::-webkit-scrollbar-track {
+        background: transparent;
+    }
 
-  .shows-content-wrapper::-webkit-scrollbar-thumb {
-    background: #3b3c48;
-  }
+    .shows-content-wrapper::-webkit-scrollbar-thumb {
+        background: #3b3c48;
+    }
 }
