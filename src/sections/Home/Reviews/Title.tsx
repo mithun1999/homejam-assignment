@@ -9,10 +9,7 @@ export const Title: FC<ReviewsTitleProps> = ({ className, prevRef, nextRef, pagi
             <div className="shows-title-wrapper">
                 <h2>Reviews</h2>
                 <div className="reviews-nav">
-                    <p ref={paginationRef}>
-                        {/* <span>1 </span>
-            <span> / 12</span> */}
-                    </p>
+                    <p ref={paginationRef}></p>
                     <img ref={prevRef} src={leftIcon} alt="Previous" />
                     <img ref={nextRef} src={rightIcon} alt="Next" />
                 </div>

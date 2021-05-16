@@ -1,71 +1,71 @@
 .reviews-main-wrapper {
-  margin-top: 114px;
-  margin-bottom: 133px;
+    margin-top: 114px;
+    margin-bottom: 133px;
 }
 
 @media (max-width: 769px) {
-  .reviews-main-wrapper {
-    margin-top: 82px;
-    margin-bottom: 109px;
-  }
+    .reviews-main-wrapper {
+        margin-top: 82px;
+        margin-bottom: 109px;
+    }
 }
 
 .reviews-content-wrapper {
-  margin-top: 50px;
-  padding-top: 9px;
-  display: flex;
-  overflow-x: auto;
+    margin-top: 50px;
+    padding-top: 9px;
+    display: flex;
+    overflow-x: auto;
 
-  .swiper-container {
-    padding-top: 10px;
-    padding-right: 20px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .swiper-slide {
-    width: 328px;
-  }
+    .swiper-container {
+        padding-top: 10px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .swiper-slide {
+        width: 328px;
+    }
 }
 
 @media (min-width: 769px) {
-  .reviews-content-wrapper::-webkit-scrollbar {
-    height: 5px;
-  }
-  .reviews-content-wrapper::-webkit-scrollbar-track {
-    background: transparent;
-  }
+    .reviews-content-wrapper::-webkit-scrollbar {
+        height: 5px;
+    }
+    .reviews-content-wrapper::-webkit-scrollbar-track {
+        background: transparent;
+    }
 
-  .reviews-content-wrapper::-webkit-scrollbar-thumb {
-    background: #3b3c48;
-  }
+    .reviews-content-wrapper::-webkit-scrollbar-thumb {
+        background: #3b3c48;
+    }
 }
 
 .reviews-nav {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  p {
-    margin-bottom: 0;
-    margin-right: 19px;
-    color: #fff;
-    span:nth-child(2) {
-      color: #fff;
-      opacity: 0.5;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    p {
+        margin-bottom: 0;
+        margin-right: 19px;
+        color: #fff;
+        span:nth-child(2) {
+            color: #fff;
+            opacity: 0.5;
+        }
     }
-  }
-  img {
-    transition: 0.05s linear;
-  }
-  img:nth-child(2):hover {
-    transform: translateX(-10px);
-  }
-  img:nth-child(3):hover {
-    transform: translateX(10px);
-  }
+    img {
+        transition: 0.05s linear;
+    }
+    img:nth-child(2):hover {
+        transform: translateX(-3px);
+    }
+    img:nth-child(3):hover {
+        transform: translateX(3px);
+    }
 }
 
 @media (max-width: 600px) {
-  .reviews-nav {
-    display: none;
-  }
+    .reviews-nav {
+        display: none;
+    }
 }
