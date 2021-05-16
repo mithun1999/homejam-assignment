@@ -1,4 +1,5 @@
 import SwiperCore from 'swiper';
+import { RefObject } from 'react';
 
 export interface ReviewsProps {
     className?: string;
@@ -6,15 +7,15 @@ export interface ReviewsProps {
 
 export interface ReviewsTitleProps {
     className?: string;
-    prevRef?: any;
-    nextRef?: any;
-    paginationRef?: any;
+    prevRef: RefObject<HTMLImageElement>;
+    nextRef: RefObject<HTMLImageElement>;
+    paginationRef: RefObject<HTMLParagraphElement>;
 }
 
 export interface ReviewsContentProps {
     className?: string;
-    onBeforeFunc?: (Swiper: SwiperCore) => void;
-    prevRef?: any;
-    nextRef?: any;
-    paginationRef?: any;
+    onBeforeFunc: (Swiper: SwiperCore) => void;
+    prevRef: RefObject<HTMLImageElement>;
+    nextRef: RefObject<HTMLImageElement>;
+    paginationRef: RefObject<HTMLParagraphElement>;
 }
