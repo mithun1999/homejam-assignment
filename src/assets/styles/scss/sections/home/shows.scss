@@ -43,7 +43,16 @@
     padding-top: 10px;
     display: flex;
     overflow-x: auto;
-    white-space: nowrap;
+    //white-space: nowrap;
+    .swiper-container {
+        padding-top: 10px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .swiper-slide {
+        width: 245px;
+    }
     .showscard-last {
         .shows-card-wrapper {
             margin-right: 0px;
