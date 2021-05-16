@@ -1,3 +1,3 @@
-export interface HeroProps{
+export interface HeroProps {
     className?: string;
 }

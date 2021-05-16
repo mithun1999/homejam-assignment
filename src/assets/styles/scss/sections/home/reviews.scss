@@ -15,6 +15,16 @@
   padding-top: 9px;
   display: flex;
   overflow-x: auto;
+
+  .swiper-container {
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .swiper-slide {
+    width: 328px;
+  }
 }
 
 @media (min-width: 769px) {
@@ -37,9 +47,7 @@
   p {
     margin-bottom: 0;
     margin-right: 19px;
-    span:nth-child(1) {
-      color: #fff;
-    }
+    color: #fff;
     span:nth-child(2) {
       color: #fff;
       opacity: 0.5;
@@ -53,5 +61,11 @@
   }
   img:nth-child(3):hover {
     transform: translateX(10px);
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-nav {
+    display: none;
   }
 }

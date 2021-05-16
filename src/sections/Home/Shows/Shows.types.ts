@@ -1,3 +1,3 @@
 export interface ShowsProps {
-  className?: string;
+    className?: string;
 }

@@ -1,1 +1,1 @@
-export * from './ReviewsCard'
+export * from './ReviewsCard';

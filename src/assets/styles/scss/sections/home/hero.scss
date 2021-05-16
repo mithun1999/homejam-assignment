@@ -65,6 +65,51 @@
   margin-left: 9px;
 }
 
+.navbar-mobile-container {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #0a0b1a;
+  z-index: 99;
+  width: 100vw;
+  opacity: 0.9;
+  animation: fadeIn ease 0.5s;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.9;
+    }
+  }
+  .navbar-mobile-wrapper {
+    position: relative;
+    color: white;
+    .close-btn {
+      position: absolute;
+      right: 4.7%;
+      top: 20px;
+    }
+    .navbar-mobile-content {
+      padding: 40px 4.7%;
+      p {
+        margin-bottom: 2rem;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-mobile-container {
+    display: none;
+  }
+}
+
 @media (max-width: 769px) {
   .desktop {
     display: none;

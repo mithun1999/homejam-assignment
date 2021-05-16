@@ -1,6 +1,6 @@
 export interface ShowsCardProps {
-  className?: string;
-  image: string;
-  tag: string;
-  name: string;
+    className?: string;
+    image: string;
+    tag: string;
+    name: string;
 }
