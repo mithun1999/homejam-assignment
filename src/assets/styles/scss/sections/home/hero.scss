@@ -168,10 +168,6 @@
     padding-bottom: 20px;
 }
 
-.stats-container::-webkit-scrollbar {
-    height: 0px;
-}
-
 @media (min-width: 769px) {
     .stats-container::-webkit-scrollbar {
         height: 5px;
