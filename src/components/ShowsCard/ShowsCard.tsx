@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react';
+import { FC, useState } from 'react';
 import { ShowsCardProps } from './ShowsCard.types';
 import arrowIcon from '../../assets/images/home/shows/svg/arrowright.svg';
 import saveIcon from '../../assets/images/home/shows/svg/save.svg';

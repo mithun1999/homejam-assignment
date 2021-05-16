@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { ReviewsTitleProps } from './Reviews.types';
 import leftIcon from '../../../assets/images/home/reviews/svg/arrowleft.svg';
 import rightIcon from '../../../assets/images/home/reviews/svg/arrowright.svg';

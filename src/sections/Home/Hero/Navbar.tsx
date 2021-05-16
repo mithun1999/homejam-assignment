@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react';
+import { FC, useState } from 'react';
 import { HeroProps } from './Hero.types';
 import logo from '../../../assets/images/home/hero/png/homejam-logo.png';
 import searchIcon from '../../../assets/images/home/hero/svg/search.svg';

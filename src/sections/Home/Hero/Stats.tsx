@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { ProgressBar } from '../../../components/ProgressBar';
 import { HeroProps } from './Hero.types';
 import { statsData } from './statsData';

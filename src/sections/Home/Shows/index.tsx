@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { HeroProps } from '../Hero/Hero.types';
 import { Title } from './Title';
 import { ShowsContent } from './ShowsContent';

@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Hero from './sections/Home/Hero';
 import { Reviews } from './sections/Home/Reviews';
 import { Shows } from './sections/Home/Shows';

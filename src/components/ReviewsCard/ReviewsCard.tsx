@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { ReviewsCardProps } from './ReviewsCard.types';
 
 export const ReviewsCard: FC<ReviewsCardProps> = ({ className, name, location, content, image, countryIcon }) => {

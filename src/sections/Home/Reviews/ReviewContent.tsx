@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { ReviewsCard } from '../../../components/ReviewsCard';
 import { ReviewsContentProps } from './Reviews.types';
 import { reviewsData } from './reviewsData';

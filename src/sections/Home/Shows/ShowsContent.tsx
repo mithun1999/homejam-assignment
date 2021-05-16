@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { ShowsCard } from '../../../components/ShowsCard';
 import { ShowsProps } from './Shows.types';
 import { showsData } from './showsData';

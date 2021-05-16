@@ -3,7 +3,7 @@ module.exports = {
     plugins: ['react-hooks'],
     root: true,
     parserOptions: {
-        ecmaVersion: 2020, 
+        ecmaVersion: 2020,
         sourceType: 'module',
         ecmaFeatures: {
             jsx: true,
@@ -34,6 +34,7 @@ module.exports = {
         'jsx-a11y/click-events-have-key-events': 'off',
         'jsx-a11y/no-static-element-interactions': 'off',
         'jsx-a11y/no-noninteractive-element-interactions': 'off',
+        'react/react-in-jsx-scope': 'off',
         'prettier/prettier': ['error', {}, { usePrettierrc: true }], // Use our .prettierrc file as source
         'jsx-a11y/anchor-is-valid': [
             'error',

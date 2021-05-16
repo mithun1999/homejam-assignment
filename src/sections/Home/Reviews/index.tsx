@@ -1,4 +1,4 @@
-import React, { FC, useRef } from 'react';
+import { FC, useRef } from 'react';
 import { ReviewsProps } from './Reviews.types';
 import { ReviewsContent } from './ReviewContent';
 import { Title } from './Title';

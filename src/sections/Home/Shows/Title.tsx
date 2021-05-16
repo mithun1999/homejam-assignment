@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { ShowsProps } from './Shows.types';
 
 export const Title: FC<ShowsProps> = ({ className }) => {
