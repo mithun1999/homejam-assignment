@@ -5,7 +5,6 @@ import { Title } from './Title';
 import SwiperCore from 'swiper';
 import { NavigationOptions } from 'swiper/types/components/navigation';
 import { PaginationOptions } from 'swiper/types/components/pagination';
-import 'swiper/swiper.scss';
 
 export const Reviews: FC<ReviewsProps> = ({ className }) => {
     const navPrevButton = useRef<HTMLImageElement>(null);
