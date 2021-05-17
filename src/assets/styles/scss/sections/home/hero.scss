@@ -166,6 +166,18 @@
     overflow-x: auto;
     white-space: nowrap;
     padding-bottom: 20px;
+    .swiper-container {
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .swiper-slide {
+        width: 208px;
+    }
+    .swiper-wrapper {
+        justify-content: space-between;
+    }
 }
 
 @media (min-width: 769px) {
@@ -184,5 +196,8 @@
 @media (max-width: 769px) {
     .stats-container {
         justify-content: flex-start;
+        .swiper-slide {
+            width: 144px;
+        }
     }
 }
